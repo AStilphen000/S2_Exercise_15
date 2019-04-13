@@ -7,8 +7,8 @@
 
    Payment Form Script
    
-   Author: 
-   Date:   
+   Author: Angelina Stilphen
+   Date:   4.12.19
    
    Filename: co_payment.js
    
@@ -44,3 +44,7 @@
 
 */
 
+window.addEventListener("load", function () {
+      // retreive field value pairs from the URL 
+      var formData = location.search.slice(1);
+});
